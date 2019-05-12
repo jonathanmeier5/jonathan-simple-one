@@ -1,12 +1,10 @@
 </div> <!-- /.container -->
 
     <footer>
-        <div class="blog-masthead">
-            <div class="container">
-                <nav class="blog-nav">
-                    <?php wp_list_pages( '&title_li=' ); ?>
-                </nav>
-            </div>
+        <div class="container">
+            <nav class="blog-nav">
+                <?php wp_list_pages( '&title_li=' ); ?>
+            </nav>
         </div>
     </footer>
 
