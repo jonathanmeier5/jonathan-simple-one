@@ -60,13 +60,18 @@ h6, .h6 {
   text-decoration: none;
 }
 
-.blog-nav li {
+.blog-nav ul {
+  position: relative;
+  padding: 10px 20px 10px 0px;
+}
+
+.blog-nav ul li {
   position: relative;
   display: inline-block;
   padding: 10px 20px 10px 0px;
   font-weight: 500;
 }
-.blog-nav li a {
+.blog-nav ul li a {
   color: #f9a386;
 }
 
